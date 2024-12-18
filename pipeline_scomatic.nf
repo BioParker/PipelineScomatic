@@ -24,7 +24,7 @@ params.basecall2dir="basecall2.dir"
 //possibly an unnecessary step but ensures that bam indexes are up to date 
 process cp_idx {
 
-	//publishDir   params.tempbam, mode: 'symlink'
+        conda params.SCconda
 
 	input:
         tuple path(input_bam), val(sample_id)
