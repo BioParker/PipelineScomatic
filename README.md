@@ -6,6 +6,8 @@ This pipeline relies on the creation of a SComatic conda environment to handle a
 
 SComatic requires cell type labels, and so is a tool designed to be used downstream of clustering and cell type annotation. Initial inputs to the pipeline are a 2 column comma-separated file containing the paths to the sample .bam files in the first column and the corresponding sample names in the second, and a tab-separated file containing 3 columns and a row for every cell you want to analyse across all samples, where the columns are the cell barcode, cell type and sample ID respectively. The sample ID in column 2 of the .csv file MUST match the sample ID in column 3 of the .tsv for the same sample.
 
+Final outputs are written to the basecall2.dir directory.
+
 ## Parameters
 
 All essential parameters can be set in config file. More task specific options may be added in future.
