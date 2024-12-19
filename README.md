@@ -26,7 +26,7 @@ All essential parameters can be set in config file. More task specific options m
 
   * ref_genome: Path to reference genome used for mapping
   * rna_editing: Path to file containing RNA editing genome positions, comes with SComatic (uses params.scomatic as initial path so should not need changing unless the file is manually relocated)
-  * pons: Path to PoNs file, comes with SComatic, comes with SComatic (uses params.scomatic as initial path so should not need changing unless the file is manually relocated)
+  * pons: Path to PoNs file, comes with SComatic (uses params.scomatic as initial path so should not need changing unless the file is manually relocated)
 
 ### Script options
 
